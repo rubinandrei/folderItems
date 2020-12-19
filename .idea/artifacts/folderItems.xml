@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="folderItems">
+    <output-path>$PROJECT_DIR$/out/artifacts/folderItems</output-path>
+    <properties id="ant-preprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="folderItems.jar">
+      <element id="library" level="project" name="Maven: com.jcraft:jsch:0.1.55" />
+      <element id="module-output" name="folderItems" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
