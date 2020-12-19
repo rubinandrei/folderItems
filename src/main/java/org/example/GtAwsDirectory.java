@@ -42,9 +42,9 @@ public class GtAwsDirectory {
 
         switch (hostName){
             case "18.203.171.233":
-            case "ec2-18-203-171-233.eu-west-1.compute.amazonaws.com": return "./lib/MJ.ppk";
+            case "ec2-18-203-171-233.eu-west-1.compute.amazonaws.com": return "./lib/MJ";
             case "54.77.250.188":
-            case "ec2-54-77-250-188.eu-west-1.compute.amazonaws.com": return "./lib/slave.ppk";//classLoader.getResource("slave.ppk").getPath(); for stream
+            case "ec2-54-77-250-188.eu-west-1.compute.amazonaws.com": return "./lib/slave";//classLoader.getResource("slave").getPath(); for stream
             default: return "";
         }
     }
