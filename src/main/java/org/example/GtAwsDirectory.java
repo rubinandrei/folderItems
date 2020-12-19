@@ -39,7 +39,7 @@ public class GtAwsDirectory {
     private String getPrivateKey(String hostName){
             ClassLoader classLoader = getClass().getClassLoader();
 
-        System.out.println("test");
+
         switch (hostName){
             case "18.203.171.233":
             case "ec2-18-203-171-233.eu-west-1.compute.amazonaws.com": return "./lib/MJ.ppk";
